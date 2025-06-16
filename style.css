@@ -1,0 +1,67 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+}
+
+.welcome {
+  background: url('rashad-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(27, 27, 20, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.verse {
+  color: white;
+  font-size: 24px;
+  margin-bottom: auto;
+  margin-top: 80px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 64px;
+  height: auto;
+  margin-left: 20px;
+  filter: drop-shadow(0 4px 4px rgba(0,0,0,0.5));
+}
+
+.text {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 18px;
+}
+
+.start-btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background: rgba(43, 41, 28, 0.7);
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 16px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  background: rgba(60, 57, 40, 0.9);
+}

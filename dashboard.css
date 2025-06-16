@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: url('rashad-dashboard-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  direction: rtl;
+}
+.dashboard {
+  padding: 20px;
+}
+.logo {
+  width: 70px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+.lang-menu {
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+  border-radius: 15px;
+}
+.lang-menu p {
+  margin: 0;
+  font-weight: bold;
+}
+.lang-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.lang-menu li {
+  padding: 5px 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  margin: 40px 0;
+}
+
+.card {
+  background: rgba(0,0,0,0.4);
+  padding: 30px 20px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.ayah {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 40px;
+}

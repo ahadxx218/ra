@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: url('rashad-profile-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  direction: rtl;
+}
+.container {
+  padding: 20px;
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+}
+.profile-box {
+  background: rgba(0,0,0,0.5);
+  border-radius: 25px;
+  padding: 25px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.profile-box input,
+.profile-box select {
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  color: black;
+}
+.profile-box input[readonly] {
+  background: #ccc;
+}
+.profile-box button {
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background: #403f30;
+  color: white;
+  cursor: pointer;
+}
+.profile-box .delete {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  color: white;
+  text-decoration: underline;
+}
